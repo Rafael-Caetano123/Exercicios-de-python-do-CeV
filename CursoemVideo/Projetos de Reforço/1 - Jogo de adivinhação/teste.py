@@ -1,0 +1,3 @@
+import funções
+
+funções.dificuldade()

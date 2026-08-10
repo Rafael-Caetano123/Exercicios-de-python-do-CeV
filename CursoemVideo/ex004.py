@@ -1,0 +1,20 @@
+"""Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as
+informações possiveis dobre ele"""
+
+n = input('Digite algo:')
+print ()
+print (f'Qual o tipo primitivo de ({n})?'),print (type(n))
+print ()
+print (f'({n}) É um número?'),print (n.isnumeric())
+print ()
+print (f'({n}) É alfabético?'),print (n.isalpha())
+print ()
+print (f'({n}) É alfanumérico?'),print (n.isalnum())
+print ()
+print (f'({n}) Só cóntem espaço?'),print (n.isspace())
+print ()
+print (f'({n}) Só cóntem letras minúsculas?'),print (n.islower())
+print ()
+print (f'({n}) Só cóntem letras maiúsculas?'),print (n.isupper())
+print ()
+print (f'({n}) Esta capitalizada?'),print (n.istitle())
